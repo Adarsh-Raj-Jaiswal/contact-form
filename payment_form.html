@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="head">Payment Form</h1>
+    <hr />
+    <form action="" method="get">
+      <h2>User Details</h2>
+      First Name: <input type="text" name="fname" /><br /><br />
+      Last Name: <input type="text" name="lname" /><br /><br />
+      Gender: Male <input type="radio" name="Gender" /> Female
+      <input type="radio" name="Gender" /><br /><br />
+      <address>
+        Address: <br />
+        <textarea name="address" id="" cols="30" rows="5"></textarea>
+      </address>
+      <br />
+      Email: <input type="email" /><br /><br />
+      Pincode: <input type="number" />
+      <h2>Payment Details</h2>
+      Card Type
+      <select name="cardtype" id="">
+        <option value="">---Select---</option>
+        <option value="debit">Debit</option>
+        <option value="credit">Credi</option></select
+      ><br /><br />
+      Card Number: <input type="number" /><br /><br />
+      CVV: <input type="password" /> <br /><br />
+      Expiry Date: <input type="date" />
+      <br><br>
+      <input type="submit" value="Pay Now" />
+      <input type="reset" />
+    </form>
+    <a href="/HTML/index.html"><h1>Link to Home</h1></a>
+  </body>
+</html>
